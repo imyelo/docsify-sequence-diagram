@@ -1,0 +1,35 @@
+{
+  "name": "docsify-sequence-diagram",
+  "version": "1.0.1",
+  "description": "sequence-diagram plugin of docsify",
+  "main": "src",
+  "scripts": {
+    "dev": "webpack . dist/docsify-sequence-diagram.dev.js -w",
+    "build": "webpack . dist/docsify-sequence-diagram.js && webpack . -p dist/docsify-sequence-diagram.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/imyelo/docsify-sequence-diagram.git"
+  },
+  "keywords": [
+    "docsify",
+    "sequence-diagram"
+  ],
+  "files": [
+    "src",
+    "dist",
+    "README.md"
+  ],
+  "author": "yelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imyelo/docsify-sequence-diagram/issues"
+  },
+  "homepage": "https://github.com/imyelo/docsify-sequence-diagram#readme",
+  "dependencies": {
+    "js-sequence-diagrams": "^1000000.0.6"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.4"
+  }
+}
