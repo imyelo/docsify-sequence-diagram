@@ -20,5 +20,10 @@
 - [README.md](example/README.md)
 
 
+## Related
+- [docsify](https://github.com/QingWei-Li/docsify/)
+- [js-sequence-diagrams](https://github.com/bramp/js-sequence-diagrams)
+
+
 ## License
 the MIT License
